@@ -1,0 +1,465 @@
+body{
+    margin: 0px;
+    font-family: arial, sans-serif;
+}
+
+
+img{
+    height: 30px;
+    width: 105px;
+    vertical-align: middle;
+    margin-left: 0px;
+      
+
+}
+
+.g img{
+    height: 30px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 0px;
+      
+
+}
+
+#yo img{
+    height: 30px;
+    width: 105px;
+    vertical-align: middle;
+    margin-left: 0px;
+      
+
+}
+    
+    
+div#nav{
+    
+    width: 100%;
+    background-color: #fafafa;
+    height: 60px;
+    
+
+}
+
+.vertical-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+span.helper{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: aqua;
+    
+}
+
+
+nav.link-bar{
+    
+    
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color:  #fafafa;
+    margin: 0 auto;
+    margin-left: 160px;
+    max-width: 600px;
+    height: 60px;
+}
+
+a.link{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-decoration: none;
+       
+   
+  }
+
+  div.right-link{
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 5px;
+   
+  }
+
+div.square{
+    background-color: #fafafa;
+    height: 50px;
+    min-width: 2000px;
+    display: inline-block;
+    position: relative;
+    
+}    
+
+div.micro{
+   position: absolute;
+}
+
+/* GOOGLE APPS LOGO BUTTON */
+
+div.apps{
+    position: absolute;
+}
+input{
+    -webkit-appearance: none;
+}
+
+input.grid{
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    margin-left: 1520px;
+    margin-top: 13px; 
+}
+
+/* GOOGLE SIGN IN LOGO BUTTON */
+
+div.sign-in-button{
+    position: relative;
+    
+    width: 100%;
+}
+
+input.sign-in{
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    filter: saturate(10);
+    display: block;
+    width: 80px;
+    height: auto;
+    margin-left: 1180px;
+    position: absolute;
+    
+    
+}
+
+
+
+
+input.search-box{
+    
+    display: inline-block;
+    margin-left: 30px;
+    width: 51%;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+}
+
+input.microphone{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-left: 1150px;
+    margin-right: 50px;
+    margin-top: 12px;
+    
+}
+
+div.magnifying{
+    position: absolute;
+}
+
+input.glass{
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    margin-left: 1120px;
+    margin-top: 13px;
+
+}
+
+div.count{
+    margin-left: 190px;
+}
+
+.count p{
+    margin: 20px 0px;
+}
+
+/* SEARCH RESULTS PRIMARY*/
+
+.results.primaryresults {
+    margin-left: 150px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    width: 600px;
+}
+
+.secondary{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    width: 600px;
+}
+
+div.results{
+    margin-left: 150px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    width: 600px;
+}
+
+div.primaryresults{
+   display: block;
+}
+
+.results h3, .results h2{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;  
+}
+
+h3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.results.cached {
+    color: #006621;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+}
+.results .preview {
+    color: #545454;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+div.preview .search-match{
+    color: #545454;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.table-primaryresults {
+    margin-left: 22px;
+    margin-bottom: 26px;
+
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table-primaryresults .c1 {
+    width: 303px;
+
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.table-primaryresults .table-link {
+    margin-top: 2px;
+    padding: 10px 0px 0px 4px;
+}
+
+.table-primaryresults a {
+    color: #1a0dab;
+    font-size: 18px;
+}
+
+.table-primaryresults .table-preview {
+    width: 220px;
+    height: 36.4px;
+    padding: 0px 0px 3px 4px;
+}
+
+.table-primaryresults .more {
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+/* SECONDARY RESULTS  */
+
+.results .secondary{
+    margin-bottom: 26px;
+    width: 600px;
+    text-decoration: none;
+    }
+    
+
+
+h2 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+
+
+
+
+
+.related {
+    margin-left: 150px;
+    padding: 9px 16px 0px 16px;
+    width: 600px;
+    margin-top: 40px;
+    color: #222;
+    font-size: 18px;
+}
+
+.related p {
+    padding-bottom: 20px;
+}
+
+.related td {
+    padding-right: 32px;
+}
+
+.related a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a0dab;
+    line-height: 20px;
+}
+
+.related .related-match {
+    font-weight: normal;
+}
+
+p {
+    margin: 0px 0px;
+}
+
+.more-results {
+    margin: 30px 161.5px;
+    width: 50%;
+}
+
+.more-results {
+    color: transparent;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #666;
+    font-size: small;
+    line-height: 40px;
+    left: 0px;
+    margin: 0px;
+    margin-right: 27px;
+    position: absolute;
+    width: 100%;
+}
+
+.results {
+    margin-left: 150px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    width: 600px;
+}
+
+.more-results td {
+    font-size: 13px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.more-results .g{
+    width: 15px;
+}
+
+.more-results #yo{
+    width: 15px;
+}
+
+.square .si{
+    height: 30px;
+    width: 140px;
+    vertical-align: middle;
+    margin-left: 40px;
+      
+
+}
+
+.fbar .fleft{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.fbar .fright{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.more-results a{
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- PRACTICE USING TABLE-ROW-GROUP VALUE for T-BODY --> */
+/* tbody.sample{
+    display: table-row-group;
+} */
+h1{
+}
+
+.text-center{
+    text-align: center;
+}
+
+
